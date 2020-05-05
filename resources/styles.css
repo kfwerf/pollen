@@ -1,0 +1,28 @@
+.title {
+  font-family: "System-Regular";
+  fill: white;
+  text-anchor: middle;
+  font-size: 30;
+}
+
+.overall-title {
+  font-family: "System-Regular";
+  fill: white;
+  font-size: 30;
+}
+
+.overall-desc {
+  font-family: "System-Regular";
+  font-size: 24;
+}
+
+.main-type-desc {
+  font-family: "System-Regular";
+  fill: white;
+  font-size: 24;
+}
+
+.main-progress-desc {
+  font-family: "System-Regular";
+  font-size: 24;
+}
