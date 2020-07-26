@@ -1,43 +1,55 @@
-<svg>
-  <rect width="100%" height="30" y="$" />
-  <text id="main-title" class="title" height="24" y="$+10" x="50%">Next 12 hrs</text>
+<svg id="app">
+   <section class="loader-screen" x="0" y="0">
+    <rect width="100%" height="100%" y="0" x="0" fill="#000000"/>
+    <image x="134" y="63" width="32" height="32" href="icon-location.png" class="location"/>
+    
+    <text class="loader-title"  y="155" x="50%" height="24">Finding you</text>
+    <text class="loader-desc" x="50%" y="191" >Locating, stand by...</text>
+  </section>
+  <section class="main-screen">
+    <rect width="100%" height="30" y="$" />
+    <image x="258" y="10" width="32" height="32" href="icon-location.png"/>
+    <text id="main-title" class="title" height="24" y="$+10" x="50%">Next 12 hrs</text>
 
-  <section class="overal-container" y="$" height="64">
-    <image x="60" y="0" width="64" height="64" href="Progress-0.png" class="overall-progress" id="overall-progress" />
-    <text x="140" y="30" class="overall-title">Overall</text>
-    <text x="140" y="$-6" class="overall-desc" id="overall-desc" fill="#90EE90">Minimal</text>
-  </section>
-  
-  <rect width="100%" height="20" y="$"/>
-  
-  <section class="tree-container" y="$+10" height="35" >
-    <g class="main-type-container">
-      <image x="10" y="0" width="32" height="32" href="icon-tree.png" class="main-type-icon" />
-      <text x="52" y="24" class="main-type-desc">Tree</text>
-    </g>
-    <g class="main-indicator-container">
-      <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="tree-progress" />
-      <text x="188" y="24" class="main-progress-desc" id="tree-desc" fill="#90EE90">Minimal</text>
-    </g>
-  </section>
-  <section class="grass-container" y="$+10" height="35">
-    <g class="main-type-container">
-      <image x="10" y="0" width="32" height="32" href="icon-grass.png" class="main-type-icon" />
-      <text x="52" y="24" class="main-type-desc">Grass</text>
-    </g>
-    <g class="main-indicator-container">
-      <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="grass-progress" />
-      <text x="188" y="24" class="main-progress-desc" id="grass-desc" fill="#90EE90">Minimal</text>
-    </g>
-  </section>
-  <section class="weed-container" y="$+10" height="35">
-    <g class="main-type-container">
-      <image x="10" y="0" width="32" height="32" href="icon-weed.png" class="main-type-icon" />
-      <text x="52" y="24" class="main-type-desc">Weed</text>
-    </g>
-    <g class="main-indicator-container">
-      <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="weed-progress"/>
-      <text x="188" y="24" class="main-progress-desc" id="weed-desc" fill="#90EE90">Minimal</text>
-    </g>
+    <section class="overal-container" y="$" height="64">
+      <image x="60" y="0" width="64" height="64" href="Progress-0.png" class="overall-progress" id="overall-progress" />
+      <text x="140" y="30" class="overall-title">Overall</text>
+      <text x="140" y="$-6" class="overall-desc" id="overall-desc" fill="#90EE90">Minimal</text>
+    </section>
+
+    <rect width="100%" height="20" y="$"/>
+
+    <section class="tree-container" y="$+10" height="35" >
+      <g class="main-type-container">
+        <image x="10" y="0" width="32" height="32" href="icon-tree.png" class="main-type-icon" />
+        <text x="52" y="24" class="main-type-desc">Tree</text>
+      </g>
+      <g class="main-indicator-container">
+        <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="tree-progress" />
+        <text x="188" y="24" class="main-progress-desc" id="tree-desc" fill="#90EE90">Minimal</text>
+      </g>
+    </section>
+    <section class="grass-container" y="$+10" height="35">
+      <g class="main-type-container">
+        <image x="10" y="0" width="32" height="32" href="icon-grass.png" class="main-type-icon" />
+        <text x="52" y="24" class="main-type-desc">Grass</text>
+      </g>
+      <g class="main-indicator-container">
+        <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="grass-progress" />
+        <text x="188" y="24" class="main-progress-desc" id="grass-desc" fill="#90EE90">Minimal</text>
+      </g>
+    </section>
+    <section class="weed-container" y="$+10" height="35">
+      <g class="main-type-container">
+        <image x="10" y="0" width="32" height="32" href="icon-weed.png" class="main-type-icon" />
+        <text x="52" y="24" class="main-type-desc">Weed</text>
+      </g>
+      <g class="main-indicator-container">
+        <image x="146" y="0" width="32" height="32" href="Progress-0.png" class="main-progress-icon" id="weed-progress"/>
+        <text x="188" y="24" class="main-progress-desc" id="weed-desc" fill="#90EE90">Minimal</text>
+      </g>
+    </section>
+    
+    <rect width="64" height="64" x="236" y="0" fill="#ffffff" id="location-btn" pointer-events="visible" class="location"/>
   </section>
 </svg>

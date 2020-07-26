@@ -1,3 +1,31 @@
+.loading .main-screen * {
+  opacity: 0;
+}
+.loading .loader-screen * {
+  opacity: 1;
+}
+.loader-screen * {
+  opacity: 0;
+}
+
+.location {
+  opacity: 0;
+}
+
+.loader-title {
+  font-family: "System-Regular";
+  fill: white;
+  text-anchor: middle;
+  font-size: 30;
+}
+
+.loader-desc {
+  font-family: "System-Regular";
+  fill: white;
+  text-anchor: middle;
+  font-size: 24;
+}
+
 .title {
   font-family: "System-Regular";
   fill: white;
