@@ -1,5 +1,6 @@
 # Pollen
 
+![Pollen screenshot](https://raw.githubusercontent.com/kfwerf/pollen/9c6e71c22c088aab3220b42ecdced59ba72b7325/resources/appshot.png)
 
 [Fitbit gallery link](https://gallery.fitbit.com/details/0aca251a-b8cc-42a2-9b9a-294d6a2d6f93)
 
