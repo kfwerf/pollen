@@ -1,4 +1,8 @@
 # Pollen
+
+
+[Fitbit gallery link](https://gallery.fitbit.com/details/0aca251a-b8cc-42a2-9b9a-294d6a2d6f93)
+
 A FitBit app that will try to display pollen related updates in your area.
 
 # Description on FitBit
